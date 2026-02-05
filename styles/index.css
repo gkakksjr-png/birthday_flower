@@ -1,0 +1,42 @@
+body {background-color: #222;}
+#wrap {
+    /* background-color: #fff; */
+    width: 440px; height: 956px;
+    margin: 0 auto;
+    background-image: url(../images/bg1.jpg);
+    background-size: 200% auto ;/* w h */
+    background-repeat: no-repeat;/* 화면 */
+    background-position: right center;/* x y */
+    padding: 112px 0 0;
+    text-align: center;
+}
+#wrap #title {margin-bottom: 42px;}
+#wrap #title p {margin-bottom: 10px;}
+#wrap #title h1 {}
+#wrap #title h1 span {}
+#wrap #birthday_frm {}
+#wrap #birthday_frm > * {
+    display: block;
+    margin: 0 auto;
+}
+#wrap #birthday_frm input {
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    text-align: center;
+    width: 90px; height: 32px;
+    color: #000;
+}
+#wrap #birthday_frm input::placeholder {color: #ccc;}
+#wrap #birthday_frm input:focus {border: 2px solid #125743;}
+#wrap #birthday_frm #user_year {margin-bottom: 10px;}
+#wrap #birthday_frm #user_month {margin-bottom: 10px;}
+#wrap #birthday_frm #user_day {margin-bottom: 42px;}
+#wrap #birthday_frm #birthday_btn {
+    color: #fff;
+    background-color: #125743;
+    border-radius: 20px;
+    width: 212px; height: 40px;
+}
+#wrap #birthday_frm #birthday_btn:hover {
+    background-color: #222;
+}
